@@ -1,0 +1,34 @@
+<View>
+  <HyperText name="html" value="$html"></HyperText>
+  <View style="box-shadow: 2px 2px 5px #999;                padding: 20px; margin-top: 2em;                border-radius: 5px;">
+    <Header value="Choose one of the following (required):"></Header>
+    <Choices name="label" toName="html" choice="single-radio" showInLine="false" required="true" requiredMessage="One label has to get selected!">
+	    <Choice alias="PubAuthAction" hotkey="1" value="Public authority"></Choice>
+	    <Choice alias="CommSpread" hotkey="2" value="Community spread and impact"></Choice>
+	    <Choice alias="GenMedAdv" hotkey="3" value="Medical advice, self-treatments, and virus characteristics"></Choice>
+	    <Choice alias="PromActs" hotkey="4" value="Prominent actors"></Choice>
+	    <Choice alias="Consp" hotkey="5" value="Conspiracies"></Choice>
+	    <Choice alias="VirTrans" hotkey="6" value="Virus transmission"></Choice>
+	    <Choice alias="VirOrgn" hotkey="7" value="Virus origin and properties"></Choice>
+	    <Choice alias="PubPrep" hotkey="8" value="Public preparedness"></Choice>
+	    <Choice alias="Vacc" hotkey="9" value="Vaccines, medical treatments, and tests"></Choice>
+	    <Choice alias="Prot" hotkey="0" value="Protest and civil disobedience"></Choice>
+	    <Choice alias="None" hotkey="q" value="None of the above / Cannot determine"></Choice>
+    </Choices>   
+    <Header>Confidence (required):</Header>
+    <Choices name="rating" toName="html" choice="single" showInline="true" required="true">
+	    <Choice value="0"/>
+	    <Choice value="1"/>
+	    <Choice value="2"/>
+	    <Choice value="3"/>
+	    <Choice value="4"/>
+	    <Choice value="5"/>
+	    <Choice value="6"/>
+	    <Choice value="7"/>
+	    <Choice value="8"/>
+	    <Choice value="9"/>
+    </Choices>
+    <Header>Optional Remarks (optional, press enter to add remark)</Header>
+    <TextArea name="remark" toName="html"></TextArea>
+  </View>
+</View>
