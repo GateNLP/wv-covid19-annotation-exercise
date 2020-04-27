@@ -6,7 +6,8 @@ Notes, software, configuration for the WV Covid19 Annotation Exercise
 
 * About label-studio: [label-studio/README.md](label-studio/README.md)
 * Annotation guidelines:
-  * https://gate.ac.uk/wiki/wv-covid19/annotation-guidelines.html
+  * From this repo as HTML: https://htmlpreview.github.io/?https://github.com/GateNLP/wv-covid19-annotation-exercise/blob/master/annotation-guidelines.html
+  * As seen by annotators: https://wv-annotation.gate.ac.uk/annotation-guidelines.html
 
 
 ## Final procedure to set everything up 
